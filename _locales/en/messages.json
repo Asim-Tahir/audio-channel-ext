@@ -1,0 +1,317 @@
+{
+   "acoustic": {
+      "message": "Acoustic"
+   },
+   "activeMessage": {
+      "message": "Audio Channel already active"
+   },
+   "advancedInfo": {
+      "message": "Toggle advanced compressor parameters"
+   },
+   "advancedLabel": {
+      "message": "Advanced"
+   },
+   "attackInfo": {
+      "message": "How quickly the compressor starts to work"
+   },
+   "attackLabel": {
+      "message": "ATTACK"
+   },
+   "bassBooster": {
+      "message": "Bass Booster"
+   },
+   "bassReducer": {
+      "message": "Bass Reducer"
+   },
+   "bypass": {
+      "message": "Bypass"
+   },
+   "captureCurrentTab": {
+      "message": "Capture current tab"
+   },
+   "chorusDelayLabel": {
+      "message": "Delay"
+   },
+   "chorusDepthLabel": {
+      "message": "Depth"
+   },
+   "chorusFeedbackLabel": {
+      "message": "Feedback"
+   },
+   "chorusRateLabel": {
+      "message": "Rate"
+   },
+   "chorusTitle": {
+      "message": "Chorus"
+   },
+   "classical": {
+      "message": "Classical"
+   },
+   "convolverHighcutLabel": {
+      "message": "Highcut"
+   },
+   "convolverLowcutLabel": {
+      "message": "Lowcut"
+   },
+   "convolverTitle": {
+      "message": "Reverb"
+   },
+   "convolverdryLevelLabel": {
+      "message": "Dry"
+   },
+   "convolverwetLevelLabel": {
+      "message": "Wet"
+   },
+   "dance": {
+      "message": "Dance"
+   },
+   "darkThemeLabel": {
+      "message": "Dark Theme"
+   },
+   "deep": {
+      "message": "Deep"
+   },
+   "deletePresetInfo": {
+      "message": "Delete custom preset"
+   },
+   "description": {
+      "message": "Tab audio limiter, equalizer, volume control and sound effects"
+   },
+   "dynamicsLabel": {
+      "message": "DYNAMICS"
+   },
+   "editInBackground": {
+      "message": "Edit"
+   },
+   "electronic": {
+      "message": "Electronic"
+   },
+   "eqRadio": {
+      "message": ""
+   },
+   "eqTitle": {
+      "message": "Equalizer"
+   },
+   "feedback": {
+      "message": "Feedback / Suggestions"
+   },
+   "fiftyInfo": {
+      "message": "Mostly bass drums and bass instruments will reside in this region"
+   },
+   "fiveHundredInfo": {
+      "message": "Some of the low end of vocals and the mids of bass instruments"
+   },
+   "fiveThousandInfo": {
+      "message": "Upper mid range that many electric guitars sit in, as well as a large portion of many instruments"
+   },
+   "fullScreenMode": {
+      "message": "Full Screen Mode:"
+   },
+   "fxEnable": {
+      "message": "Enable FX tab"
+   },
+   "fxRadio": {
+      "message": ""
+   },
+   "fxTitle": {
+      "message": "FX"
+   },
+   "gotoTab": {
+      "message": "Show"
+   },
+   "hiphop": {
+      "message": "Hip-Hop"
+   },
+   "infoIconLabel": {
+      "message": "Show info"
+   },
+   "instanceOpenAlready": {
+      "message": "Popup already open in a different window!"
+   },
+   "jazz": {
+      "message": "Jazz"
+   },
+   "karaokeBtnInfo": {
+      "message": "Karaoke mode"
+   },
+   "kneeInfo": {
+      "message": "How smooth the compression is"
+   },
+   "kneeLabel": {
+      "message": "KNEE"
+   },
+   "latin": {
+      "message": "Latin"
+   },
+   "lightThemeLabel": {
+      "message": "Light Theme"
+   },
+   "limiterTitle": {
+      "message": "Limiter"
+   },
+   "loadPresetInfo": {
+      "message": "Load saved custom preset"
+   },
+   "loadPresetLabel": {
+      "message": "Load Preset"
+   },
+   "loadPresetOnStartup": {
+      "message": "Load Preset On Startup:"
+   },
+   "loudness": {
+      "message": "Loudness"
+   },
+   "lounge": {
+      "message": "Lounge"
+   },
+   "mainTitle": {
+      "message": "Audio Channel"
+   },
+   "monoBtn": {
+      "message": "MONO"
+   },
+   "monoBtnInfo": {
+      "message": "Mono / Stereo toggle"
+   },
+   "myModalMessage": {
+      "message": "myModalMessage!"
+   },
+   "name": {
+      "message": "Audio Channel"
+   },
+   "off": {
+      "message": "Off"
+   },
+   "offMessage": {
+      "message": "Audio Channel is currently switched off!"
+   },
+   "offTitle": {
+      "message": "Turn on the power!"
+   },
+   "on": {
+      "message": "On"
+   },
+   "oneHundredInfo": {
+      "message": "Many small speakers can just about handle this frequency for bass information"
+   },
+   "oneThousandInfo": {
+      "message": "Low midrange of most instruments such as guitars, pianos, snare drums, etc"
+   },
+   "openOnClick": {
+      "message": "Active Tab Background Control:"
+   },
+   "optionsPage": {
+      "message": "Options"
+   },
+   "panFaderLabel": {
+      "message": "Mono / Stereo pan"
+   },
+   "piano": {
+      "message": "Piano"
+   },
+   "pitchAmountLabel": {
+      "message": "Pitch"
+   },
+   "pitchCentsLabel": {
+      "message": "Cents"
+   },
+   "pitchEnable": {
+      "message": "Enable Pitch"
+   },
+   "pitchTitle": {
+      "message": "Pitch"
+   },
+   "pop": {
+      "message": "Pop"
+   },
+   "powerInfo": {
+      "message": "Turn on / off"
+   },
+   "presetsInfo": {
+      "message": "Preset selector"
+   },
+   "ratioInfo": {
+      "message": "How much compression is applied"
+   },
+   "ratioLabel": {
+      "message": "RATIO"
+   },
+   "releaseInfo": {
+      "message": "How soon after the signal dips below the threshold the compressor stops"
+   },
+   "releaseLabel": {
+      "message": "RELEASE"
+   },
+   "resetInfo": {
+      "message": "Reset settings to default"
+   },
+   "resetLabel": {
+      "message": "Reset"
+   },
+   "reverbAmountLabel": {
+      "message": "Reverb"
+   },
+   "rnb": {
+      "message": "R&B"
+   },
+   "rock": {
+      "message": "Rock"
+   },
+   "savePresetInfo": {
+      "message": "Save current settings to custom preset"
+   },
+   "savePresetLabel": {
+      "message": "Save Preset"
+   },
+   "saveVolumeWithPreset": {
+      "message": "Save Volume With Preset:"
+   },
+   "smallSpeakers": {
+      "message": "Small Speakers"
+   },
+   "spokenWord": {
+      "message": "Spoken Word"
+   },
+   "support": {
+      "message": "Support Audio Channel"
+   },
+   "tenThousandInfo": {
+      "message": "Cymbals and hi-hats, upper range of synths, pianos, guitars, and many vocals"
+   },
+   "theme": {
+      "message": "Select theme"
+   },
+   "thresholdInfo": {
+      "message": "How loud the signal has to be before compression is applied"
+   },
+   "thresholdLabel": {
+      "message": "THRESHOLD"
+   },
+   "trebleBooster": {
+      "message": "Treble Booster"
+   },
+   "trebleReducer": {
+      "message": "Treble Reducer"
+   },
+   "twentyInfo": {
+      "message": "The lowest of low bass frequencies, such as kick drums and bass instruments"
+   },
+   "twentyThousandInfo": {
+      "message": "This is true high end. If you crank this up, your mixes will get ‘sizzly'"
+   },
+   "twoHundredInfo": {
+      "message": "Guitars and pianos will have a large amount of low end in this frequency range"
+   },
+   "twoThousandInfo": {
+      "message": "Boost or cut the 'nasal' sound of your music"
+   },
+   "updateLog": {
+      "message": "Update Log"
+   },
+   "vocalBooster": {
+      "message": "Vocal Booster"
+   },
+   "volumeInfo": {
+      "message": "Volume control"
+   }
+}

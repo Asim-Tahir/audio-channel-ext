@@ -1,0 +1,314 @@
+{
+   "acoustic": {
+      "message": "音響"
+   },
+   "activeMessage": {
+      "message": "既にアクティブなオーディオチャンネル"
+   },
+   "advancedInfo": {
+      "message": "高度なコンプレッサーパラメータを切り替えます。"
+   },
+   "advancedLabel": {
+      "message": "上級"
+   },
+   "attackInfo": {
+      "message": "コンプレッサーの動作開始時間。"
+   },
+   "attackLabel": {
+      "message": "攻撃"
+   },
+   "bassBooster": {
+      "message": "バスブースター"
+   },
+   "bassReducer": {
+      "message": "低音リダクター"
+   },
+   "bypass": {
+      "message": "バイパス"
+   },
+   "captureCurrentTab": {
+      "message": "現在のタブをキャプチャ"
+   },
+   "chorusDelayLabel": {
+      "message": "ディレイ"
+   },
+   "chorusDepthLabel": {
+      "message": "深さ"
+   },
+   "chorusFeedbackLabel": {
+      "message": "フィードバック"
+   },
+   "chorusRateLabel": {
+      "message": "レート"
+   },
+   "chorusTitle": {
+      "message": "コーラス"
+   },
+   "classical": {
+      "message": "クラシック"
+   },
+   "convolverHighcutLabel": {
+      "message": "ハイカット"
+   },
+   "convolverLowcutLabel": {
+      "message": "ローカット"
+   },
+   "convolverTitle": {
+      "message": "リバーブ"
+   },
+   "convolverdryLevelLabel": {
+      "message": "ドライ"
+   },
+   "convolverwetLevelLabel": {
+      "message": "ウェット"
+   },
+   "dance": {
+      "message": "ダンス"
+   },
+   "darkThemeLabel": {
+      "message": "暗いテーマ"
+   },
+   "deep": {
+      "message": "深い"
+   },
+   "deletePresetInfo": {
+      "message": "カスタムプリセットを削除する。"
+   },
+   "description": {
+      "message": "タブオーディオリミッタ、イコライザ、ボリュームコントロール"
+   },
+   "dynamicsLabel": {
+      "message": "ダイナミクス"
+   },
+   "editInBackground": {
+      "message": "編集タブ"
+   },
+   "electronic": {
+      "message": "電子"
+   },
+   "eqRadio": {
+      "message": "10バンドグラフィックイコライザ。"
+   },
+   "eqTitle": {
+      "message": "イコライザ"
+   },
+   "feedback": {
+      "message": "フィードバック/提案"
+   },
+   "fiftyInfo": {
+      "message": "ほとんどのベースドラムとベース楽器はこの地域にあります。"
+   },
+   "fiveHundredInfo": {
+      "message": "ボーカルのローエンドとベース音源のミドルのいくつか。"
+   },
+   "fullScreenMode": {
+      "message": "フルスクリーンモード:"
+   },
+   "fxEnable": {
+      "message": "エフェクトタブを有効にする"
+   },
+   "fxTitle": {
+      "message": "音響効果"
+   },
+   "giveThousandInfo": {
+      "message": "多くのエレキギターが座っているミッドレンジの上半分、そして多くの楽器の大部分です。"
+   },
+   "gotoTab": {
+      "message": "タブを開く"
+   },
+   "hiphop": {
+      "message": "ヒップホップ"
+   },
+   "infoIconLabel": {
+      "message": "情報を表示する"
+   },
+   "instanceOpenAlready": {
+      "message": "ポップアップはすでに開いています!"
+   },
+   "jazz": {
+      "message": "ジャズ"
+   },
+   "karaokeBtnInfo": {
+      "message": "カラオケモード"
+   },
+   "kneeInfo": {
+      "message": "圧縮がどのくらい滑らかであるか。"
+   },
+   "kneeLabel": {
+      "message": "膝"
+   },
+   "latin": {
+      "message": "ラテン"
+   },
+   "lightThemeLabel": {
+      "message": "ライトテーマ"
+   },
+   "limiterRadio": {
+      "message": "ボリュームコンプレッサー/リミッター"
+   },
+   "limiterTitle": {
+      "message": "リミッタ"
+   },
+   "loadPresetInfo": {
+      "message": "保存されたカスタムプリセットをロードします。"
+   },
+   "loadPresetLabel": {
+      "message": "ロードプリセット"
+   },
+   "loadPresetOnStartup": {
+      "message": "起動時にプリセットを読み込む:"
+   },
+   "loudness": {
+      "message": "ラウドネス"
+   },
+   "lounge": {
+      "message": "ラウンジ"
+   },
+   "mainTitle": {
+      "message": "オーディオチャンネル"
+   },
+   "monoBtn": {
+      "message": "モノフォニック"
+   },
+   "monoBtnInfo": {
+      "message": "モノ/ステレオトグル。"
+   },
+   "name": {
+      "message": "オーディオチャンネル"
+   },
+   "off": {
+      "message": "オフ"
+   },
+   "offMessage": {
+      "message": "オーディオチャンネルは現在オフになっています！"
+   },
+   "offTitle": {
+      "message": "電源を入れる！"
+   },
+   "on": {
+      "message": "に"
+   },
+   "oneHundredInfo": {
+      "message": "多くの小型スピーカーは、この周波数をベース情報として扱うことができます。"
+   },
+   "oneThousandInfo": {
+      "message": "ギター、ピアノ、スネアドラムなど、ほとんどの楽器の中低域"
+   },
+   "openOnClick": {
+      "message": "開いたときに自動的に起動する"
+   },
+   "optionsPage": {
+      "message": "オプション"
+   },
+   "panFaderLabel": {
+      "message": "モノ/ステレオパン"
+   },
+   "piano": {
+      "message": "ピアノ"
+   },
+   "pitchAmountLabel": {
+      "message": "ピッチ"
+   },
+   "pitchCentsLabel": {
+      "message": "セント"
+   },
+   "pitchEnable": {
+      "message": "ピッチを有効にする"
+   },
+   "pitchLabel": {
+      "message": "値"
+   },
+   "pitchTitle": {
+      "message": "ピッチ"
+   },
+   "pop": {
+      "message": "ポップ"
+   },
+   "powerInfo": {
+      "message": "オン/オフを切り替える"
+   },
+   "presetsInfo": {
+      "message": "プリセットセレクタ。"
+   },
+   "ratioInfo": {
+      "message": "どのくらいの圧縮が適用されるか。"
+   },
+   "ratioLabel": {
+      "message": "比"
+   },
+   "releaseInfo": {
+      "message": "信号がスレッショルドを下回った後すぐに、コンプレッサーは停止します。"
+   },
+   "releaseLabel": {
+      "message": "リリース"
+   },
+   "resetInfo": {
+      "message": "設定をデフォルトにリセットします。"
+   },
+   "resetLabel": {
+      "message": "リセット"
+   },
+   "reverbAmountLabel": {
+      "message": "リバーブ"
+   },
+   "rnb": {
+      "message": "ブルース"
+   },
+   "rock": {
+      "message": "岩"
+   },
+   "savePresetInfo": {
+      "message": "現在の設定をカスタムプリセットに保存。"
+   },
+   "savePresetLabel": {
+      "message": "プリセットを保存"
+   },
+   "saveVolumeWithPreset": {
+      "message": "プリセットで音量を保存:"
+   },
+   "smallSpeakers": {
+      "message": "小型スピーカー"
+   },
+   "spokenWord": {
+      "message": "話し言葉"
+   },
+   "support": {
+      "message": "サポートオーディオチャンネル"
+   },
+   "supportMessage": {
+      "message": "サポートオーディオチャンネル"
+   },
+   "tenThousandInfo": {
+      "message": "シンバルやハイハット、シンセサイザー、ピアノ、ギター、ボーカルなど。"
+   },
+   "thresholdInfo": {
+      "message": "圧縮が適用される前に信号がどれほど大きくなければならないか。"
+   },
+   "thresholdLabel": {
+      "message": "スレッショルド"
+   },
+   "trebleBooster": {
+      "message": "トレブルブースター"
+   },
+   "trebleReducer": {
+      "message": "トレブルリデューサー"
+   },
+   "twentyInfo": {
+      "message": "キックドラムやベース楽器のような低域の最低周波数。"
+   },
+   "twentyThousandInfo": {
+      "message": "これは本当のハイエンドです。 あなたがこれを上げると、あなたのミックスは気になるでしょう。"
+   },
+   "twoHundredInfo": {
+      "message": "ギターとピアノはローエンドの量が多いでしょう。"
+   },
+   "twoThousandInfo": {
+      "message": "あなたの音楽の「鼻」音をブーストまたはカットします。"
+   },
+   "updateLog": {
+      "message": "ログを更新する"
+   },
+   "vocalBooster": {
+      "message": "ボーカルブースター"
+   }
+}

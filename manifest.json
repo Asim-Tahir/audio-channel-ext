@@ -1,0 +1,24 @@
+{
+   "background": {
+      "persistent": false,
+      "scripts": [ "js/bg/tuna.js", "js/bg/jungle.js", "js/common.js", "js/bg/bg.js" ]
+   },
+   "browser_action": {
+      "default_icon": "style/off.png",
+      "default_popup": "popup.html",
+      "default_title": "__MSG_mainTitle__"
+   },
+   "default_locale": "en",
+   "description": "__MSG_description__",
+   "icons": {
+      "128": "style/on.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAg3IdAr65fQzIxJKNjyNC4B1QFvrDAdIxEVVzfKNPJx/iRLa298WHJ/x00tmoRXpJmqp3GvBsmEmpnuinITmrsxSzvit1+ZKUWThm2xr+vAJObfaRZmUXZ96Y/IMCUqKPh12ucsV88OLvGaiMAsjckUTigd2C+aJPXX1/X9mZl8+UOLxnEY+9r9yRM9tLufirOIyIOU1KgcfVu4TqC491HBG34L113tabteiGH+qkYTJmrXu6nKVKBps9EeuscaQSWwkXe7ErW55VMiviVEBJyxmHrHJ9q4GZOXjU2abRFOxdoBeVR3CrBTLUnyw4emvudsfarH/6iuPskaGHawi0DwIDAQAB",
+   "manifest_version": 2,
+   "name": "__MSG_name__",
+   "offline_enabled": true,
+   "options_page": "options.html",
+   "permissions": [ "tabCapture", "tabs", "storage" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "2.7.4"
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+   <head lang="en">
+      <meta charset="UTF-8">
+   </head>
+   <body style="background-color: #41555e; color: rgba(255, 255, 255, 0.7);">
+      <h3 id="loadPresetOnStartup"></h3>
+      <label class="on" for="presetOn"></label>
+      <input id="presetOn" type="radio" name="autoPreset">
+      <label class="off" for="presetOff"></label>
+      <input id="presetOff" type="radio" name="autoPreset">
+      <h3 id="fullScreenMode"></h3>
+      <label class="on" for="fullScreenOn"></label>
+      <input id="fullScreenOn" type="radio" name="fullScreen">
+      <label class="off" for="fullScreenOff"></label>
+      <input id="fullScreenOff" type="radio" name="fullScreen">
+      <h3 id="saveVolumeWithPreset"></h3>
+      <label class="on" for="volumePresetOn"></label>
+      <input id="volumePresetOn" type="radio" name="volumePreset">
+      <label class="off" for="volumePresetOff"></label>
+      <input id="volumePresetOff" type="radio" name="volumePreset">
+      <h3 id="openOnClick"></h3>
+      <label class="on" for="openOn"></label>
+      <input id="openOn" type="radio" name="open">
+      <label class="off" for="openOff"></label>
+      <input id="openOff" type="radio" name="open">
+      <div id="helpBtnDiv" style="position:absolute;top:5px;right:5px;">
+         <label for="info" id="infoIconLabel"></label>
+         <input type="checkbox" id="info"/>
+      </div>
+      <script src="js/jquery.min.js"></script>
+      <script src="js/common.js"></script>
+      <script src="js/popup/options.js"></script>
+   </body>
+</html>

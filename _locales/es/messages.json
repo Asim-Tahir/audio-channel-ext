@@ -1,0 +1,314 @@
+{
+   "acoustic": {
+      "message": "Acústico"
+   },
+   "activeMessage": {
+      "message": "El canal de audio ya está activo"
+   },
+   "advancedInfo": {
+      "message": "Alternar los parámetros avanzados del compresor."
+   },
+   "advancedLabel": {
+      "message": "Avanzado"
+   },
+   "attackInfo": {
+      "message": "Qué tan rápido el compresor empieza a funcionar."
+   },
+   "attackLabel": {
+      "message": "Ataque"
+   },
+   "bassBooster": {
+      "message": "Potenciador de bajo"
+   },
+   "bassReducer": {
+      "message": "Reductor de bajo"
+   },
+   "bypass": {
+      "message": "Derivación"
+   },
+   "captureCurrentTab": {
+      "message": "Capturar la pestaña actual"
+   },
+   "chorusDelayLabel": {
+      "message": "Retrasar"
+   },
+   "chorusFeedbackLabel": {
+      "message": "Realimentación"
+   },
+   "chorusRateLabel": {
+      "message": "Tarifa"
+   },
+   "chorusTitle": {
+      "message": "Coro"
+   },
+   "classical": {
+      "message": "Clásico"
+   },
+   "convolverHighcutLabel": {
+      "message": "alto"
+   },
+   "convolverLowcutLabel": {
+      "message": "bajo"
+   },
+   "convolverTitle": {
+      "message": "Reverberación"
+   },
+   "convolverdryLevelLabel": {
+      "message": "Seco"
+   },
+   "convolverwetLevelLabel": {
+      "message": "Mojado"
+   },
+   "dance": {
+      "message": "Baile"
+   },
+   "darkThemeLabel": {
+      "message": "Tema oscuro"
+   },
+   "deep": {
+      "message": "Profundo"
+   },
+   "deletePresetInfo": {
+      "message": "Eliminar predeterminado personalizado."
+   },
+   "description": {
+      "message": "Tab limitador de audio, ecualizador y control de volumen."
+   },
+   "dynamicsLabel": {
+      "message": "Dinámica"
+   },
+   "editInBackground": {
+      "message": "Ficha Editar"
+   },
+   "electronic": {
+      "message": "Electrónico"
+   },
+   "eqRadio": {
+      "message": "Ecualizador gráfico de 10 bandas."
+   },
+   "eqTitle": {
+      "message": "ecualizador"
+   },
+   "feedback": {
+      "message": "Comentarios / Sugerencias"
+   },
+   "fiftyInfo": {
+      "message": "En su mayoría, los bajos y los instrumentos de bajo residirán en esta región."
+   },
+   "fiveHundredInfo": {
+      "message": "Algunos de los bajos de la voz y los medios de los instrumentos de bajo."
+   },
+   "fullScreenMode": {
+      "message": "Modo de pantalla completa:"
+   },
+   "fxEnable": {
+      "message": "Ficha habilitar efectos"
+   },
+   "fxTitle": {
+      "message": "Efectos de sonido"
+   },
+   "giveThousandInfo": {
+      "message": "Intermedio superior que muchas guitarras eléctricas se sientan adentro, así como una porción grande de muchos instrumentos."
+   },
+   "gotoTab": {
+      "message": "Abrir pestaña"
+   },
+   "hiphop": {
+      "message": "Hip-Hop"
+   },
+   "infoIconLabel": {
+      "message": "Mostrar información"
+   },
+   "instanceOpenAlready": {
+      "message": "Popup ya está abierto!"
+   },
+   "jazz": {
+      "message": "Jazz"
+   },
+   "karaokeBtnInfo": {
+      "message": "Modo karaoke."
+   },
+   "kneeInfo": {
+      "message": "Cómo suave la compresión es."
+   },
+   "kneeLabel": {
+      "message": "Rodilla"
+   },
+   "latin": {
+      "message": "Latín"
+   },
+   "lightThemeLabel": {
+      "message": "Tema ligero"
+   },
+   "limiterRadio": {
+      "message": "Compresor de volumen / limitador."
+   },
+   "limiterTitle": {
+      "message": "Limitador"
+   },
+   "loadPresetInfo": {
+      "message": "Carga el preset personalizado guardado."
+   },
+   "loadPresetLabel": {
+      "message": "Cargar Preset"
+   },
+   "loadPresetOnStartup": {
+      "message": "Load preset en el arranque:"
+   },
+   "loudness": {
+      "message": "Volumen"
+   },
+   "lounge": {
+      "message": "Salón"
+   },
+   "mainTitle": {
+      "message": "Canal de audio"
+   },
+   "monoBtn": {
+      "message": "MONO"
+   },
+   "monoBtnInfo": {
+      "message": "Interruptor mono / estéreo"
+   },
+   "name": {
+      "message": "Canal de audio"
+   },
+   "off": {
+      "message": "Apagado"
+   },
+   "offMessage": {
+      "message": "El canal de audio está actualmente desactivado"
+   },
+   "offTitle": {
+      "message": "Conectar la alimentación"
+   },
+   "on": {
+      "message": "En"
+   },
+   "oneHundredInfo": {
+      "message": "Muchos altavoces pequeños pueden manejar esta frecuencia para la información de graves."
+   },
+   "oneThousandInfo": {
+      "message": "Baja gama media de la mayoría de los instrumentos tales como guitarras, pianos, tambores, etc."
+   },
+   "openOnClick": {
+      "message": "Iniciar automáticamente al abrirse"
+   },
+   "optionsPage": {
+      "message": "Opciones"
+   },
+   "panFaderLabel": {
+      "message": "Sartén mono / estéreo"
+   },
+   "piano": {
+      "message": "Piano"
+   },
+   "pitchAmountLabel": {
+      "message": "Tono"
+   },
+   "pitchCentsLabel": {
+      "message": "Centavos"
+   },
+   "pitchEnable": {
+      "message": "Habilitar la afinación"
+   },
+   "pitchLabel": {
+      "message": "Valeur"
+   },
+   "pitchTitle": {
+      "message": "tono"
+   },
+   "pop": {
+      "message": "Pop"
+   },
+   "powerInfo": {
+      "message": "Encender / apagar."
+   },
+   "presetsInfo": {
+      "message": "Selector de preajuste."
+   },
+   "ratioInfo": {
+      "message": "Cuánta compresión se aplica."
+   },
+   "ratioLabel": {
+      "message": "Proporción"
+   },
+   "releaseInfo": {
+      "message": "Cuánto tiempo después de que la señal cae por debajo del umbral, el compresor se detiene."
+   },
+   "releaseLabel": {
+      "message": "Lanzamiento"
+   },
+   "resetInfo": {
+      "message": "Restablecer la configuración predeterminada."
+   },
+   "resetLabel": {
+      "message": "Reiniciar"
+   },
+   "reverbAmountLabel": {
+      "message": "Reverberación"
+   },
+   "rnb": {
+      "message": "R&B"
+   },
+   "rock": {
+      "message": "Rock"
+   },
+   "savePresetInfo": {
+      "message": "Guarde la configuración actual en preset personalizado."
+   },
+   "savePresetLabel": {
+      "message": "Guardar Preset"
+   },
+   "saveVolumeWithPreset": {
+      "message": "Guardar volumen con preset:"
+   },
+   "smallSpeakers": {
+      "message": "Altavoces Pequeños"
+   },
+   "spokenWord": {
+      "message": "Palabra hablada"
+   },
+   "support": {
+      "message": "Canal de audio de soporte"
+   },
+   "supportMessage": {
+      "message": "Canal de audio de soporte"
+   },
+   "tenThousandInfo": {
+      "message": "Cymbals y hi-hats, gama superior de sintetizadores, pianos, guitarras, y muchas voces."
+   },
+   "thresholdInfo": {
+      "message": "Qué tan fuerte debe ser la señal antes de aplicar la compresión."
+   },
+   "thresholdLabel": {
+      "message": "LÍMITE"
+   },
+   "trebleBooster": {
+      "message": "Acelerador triple"
+   },
+   "trebleReducer": {
+      "message": "Reductor de agudos"
+   },
+   "twentyInfo": {
+      "message": "El más bajo de frecuencias bajas de bajo, tales como tambores del retroceso y instrumentos bajos."
+   },
+   "twentyThousandInfo": {
+      "message": "Esto es verdad extremo superior. Si usted manivela esto para arriba, sus mezclas conseguirán 'sizzly'."
+   },
+   "twoHundredInfo": {
+      "message": "Las guitarras y los pianos tendrán una gran cantidad de."
+   },
+   "twoThousandInfo": {
+      "message": "Aumente o corte el sonido 'nasal' de su música."
+   },
+   "updateLog": {
+      "message": "Registro de actualización"
+   },
+   "vocalBooster": {
+      "message": "Impulsor vocal"
+   },
+   "volumeInfo": {
+      "message": "Control del volumen."
+   }
+}

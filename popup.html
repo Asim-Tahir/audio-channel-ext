@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style/style.css"/>
+    <link rel="stylesheet" href="style/typicons.min.css"/>
+</head>
+<body>
+<div id="wrapper">
+<div id="sidePanel">
+    <div class="header">
+        <canvas id="visualizer" class="hidden bg-base fg-primary"></canvas>
+    </div>
+    <div class="controllers">
+        <div style="display: flex; flex-flow: column">
+            <div id="volumeDiv" class="fader fader-ruler fader-inverse fader-v fader-lg">
+                <input id="volume" class="high fadersGrp" type="range" step="0.01" value="1" min="0" max="4"/>
+            </div>
+            <button id="power" class="off"><i id="powerBtnIcon" class="typcn-power"></i></button>
+        </div>
+    </div>
+    <div id="version"></div>
+</div>
+<div id="mainPanel">
+<div class="header">
+    <h3 id="valInfo"></h3>
+
+    <div id="title" class="title"></div>
+    <div class="flex-right">
+        <div class="dropdown ">
+            <a class="menucon morphs" href="#" data-toggle="dropdown"><span class="bg-base"></span></a>
+            <ul class="dropdown-menu pull-right">
+                <li>
+                    <a id="palette" datatype="i18n" href="#" class="palette">
+                    </a>
+                </li>
+                <li>
+                    <a id="darkThemeLabel" datatype="i18n" href=""></a>
+                </li>
+                <li>
+                    <a id="lightThemeLabel" datatype="i18n" href=""></a>
+                </li>
+                <hr style="padding: 0;margin: 4px"/>
+                <li>
+                    <a id="optionsPage" datatype="i18n" href=""></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="tabs">
+<div id="modalOff" class="channelModal">
+    <div class="media" id="modalStylingDiv">
+        <div id="modalLeft">
+            <div class="media-img">
+                <i id="powerIcon" class="unicon typcn-power bg-greenfg-white fs-200"></i>
+            </div>
+            <div id="modalText">
+                <div class="media-body">
+                    <h4 id="modalTitle" class="mgb-5 fg-blue"></h4>
+                </div>
+                <p id="modalBody" class="fg-text-l fs-130 no-mg"></p>
+            </div>
+        </div>
+        <div id="modalButtons">
+            <div id="gotoTab" class="btn fg-blue" datatype="i18n"></div>
+            <div id="editInBackground" class="btn fg-blue" datatype="i18n"></div>
+        </div>
+        <a id="feedback" datatype="i18n"
+           href="https://chrome.google.com/webstore/detail/audio-channel/hafdgamhnmiioimpcdhhbhgcjndgmphd/support"
+           target="_blank"></a>
+    </div>
+</div>
+<div id="main" class="tab active">
+<div class="options-bar" id="mainSections">
+    <label class="radio-inline radio-styled">
+        <input id="pitchRadio" type="radio" name="modules">
+        <span class="indicator bdc-after-cyan bg-before-cyan"></span>
+        <span id="pitchTitle" datatype="i18n"></span>
+    </label>
+    <label class="radio-inline radio-styled">
+        <input id="chorusRadio" type="radio" name="modules">
+        <span class="indicator bdc-after-cyan bg-before-cyan"></span>
+        <span id="chorusTitle" datatype="i18n"></span>
+    </label>
+    <label class="radio-inline radio-styled">
+        <input id="convolverRadio" type="radio" name="modules">
+        <span class="indicator bdc-after-cyan bg-before-cyan"></span>
+        <span id="convolverTitle" datatype="i18n"></span>
+    </label>
+    <label class="radio-inline radio-styled">
+        <input id="eqRadio" type="radio" name="modules" datatype="i18n">
+        <span class="indicator bdc-after-orange bg-before-orange"></span>
+        <span id="eqTitle" datatype="i18n"></span>
+    </label>
+
+    <label class="radio-inline radio-styled">
+        <input id="limiterRadio" type="radio" name="modules" datatype="i18n">
+        <span class="indicator bdc-after-green bg-before-green"></span>
+        <span id="limiterTitle" datatype="i18n"></span>
+    </label>
+
+        <button id="monoBtn" class='info' datatype="i18n"></button>
+
+    <button id="karaokeBtn" class='info'><img id="karaokeIcon" src="style/karaokeOff.png" width=10> </button>
+
+    <div id="panDiv" class='info'>
+        <input data-displayInput=true data-cursor=true id="panFader" datatype="i18n" type="text">
+    </div>
+
+</div>
+<div id="allFaders" class="faders fadersGrp space-between">
+    <div class="chorus fader fader-ruler fader-v fader-cyan module">
+        <div id="chorusRateVal" class="faderVal"></div>
+        <input id="chorusRate" class="high info" type="range" min="0" max="1" step="0.01"/>
+        <label id="chorusRateLabel" for="chorusRate" datatype="i18n">
+        </label>
+    </div>
+    <div class="chorus fader fader-ruler fader-v fader-cyan module">
+        <div id="chorusDepthVal" class="faderVal"></div>
+        <input id="chorusDepth" class="high info" type="range" min="0" max="1" step="0.01"/>
+        <label id="chorusDepthLabel" for="chorusDepth" datatype="i18n">
+        </label>
+    </div>
+    <div class="chorus fader fader-ruler fader-v fader-cyan module">
+        <div id="chorusFeedbackVal" class="faderVal"></div>
+        <input id="chorusFeedback" class="high info" type="range" min="0" max="0.95" step="0.01"/>
+        <label id="chorusFeedbackLabel" for="chorusFeedback" datatype="i18n">
+        </label>
+    </div>
+    <div class="chorus fader fader-ruler fader-v fader-cyan module">
+        <div id="chorusDelayVal" class="faderVal"></div>
+        <input id="chorusDelay" class="high info" type="range" min="0" max="2" step="0.01"/>
+        <label id="chorusDelayLabel" for="chorusDelay" datatype="i18n">
+        </label>
+    </div>
+    <div class="convolver fader fader-ruler fader-v fader-cyan module">
+        <div id="convolverHighCutVal" class="faderVal"></div>
+        <input id="convolverHighCut" class="high info" type="range" min="20" max="22050" step="1"/>
+        <label id="convolverHighCutLabel" for="convolverHighCut" datatype="i18n">
+        </label>
+    </div>
+    <div class="convolver fader fader-ruler fader-v fader-cyan module">
+        <div id="convolverLowCutVal" class="faderVal"></div>
+        <input id="convolverLowCut" class="high info" type="range" min="20" max="22050" step="1"/>
+        <label id="convolverLowCutLabel" for="convolverLowCut" datatype="i18n">
+        </label>
+    </div>
+    <div class="convolver fader fader-ruler fader-v fader-cyan module">
+        <div id="convolverDryLevelVal" class="faderVal"></div>
+        <input id="convolverDryLevel" class="high info" type="range" min="0" max="1" step="0.01"/>
+        <label id="convolverDryLevelLabel" for="convolverDryLevel" datatype="i18n">
+        </label>
+    </div>
+    <div class="convolver fader fader-ruler fader-v fader-cyan module">
+        <div id="convolverWetLevelVal" class="faderVal"></div>
+        <input id="convolverWetLevel" class="high info" type="range" min="0" max="1" step="0.01"/>
+        <label id="convolverWetLevelLabel" for="convolverWetLevel" datatype="i18n">
+        </label>
+    </div>
+    <div class="pitch fader fader-ruler fader-v fader-cyan module">
+        <div id="pitchVal" class="faderVal"></div>
+        <input id="pitch" class="high info" type="range" min="-12" max="12" step="1"/>
+        <label id="pitchLabel" for="pitch" datatype="i18n">
+        </label>
+    </div>
+    <div id="pitchCentsFader" class="pitch fader fader-ruler fader-cyan module">
+        <label id="pitchCentsLabel" for="pitchCents" datatype="i18n"></label>
+
+        <div id="pitchCentsVal" class="faderVal module"></div>
+        <input id="pitchCents" class="high info" type="range" min="-100" max="100" step="1"/>
+    </div>
+    <div class="dynamics fader fader-ruler fader-v fader-green module">
+        <div id="thresholdVal" class="faderVal"></div>
+        <input id="threshold" class="high info" type="range" min="-100" max="0"/>
+        <label id="thresholdLabel" for="threshold">
+        </label>
+    </div>
+    <div class="advanced fader fader-ruler fader-v fader-green disabled module">
+        <div id="attackVal" class="faderVal"></div>
+        <input id="attack" class="short info" type="range" min="0" max="1" step="0.01"/>
+        <label id="attackLabel" for="attack" datatype="i18n">
+        </label>
+    </div>
+    <div class="advanced fader fader-ruler fader-v fader-green disabled module">
+        <div id="releaseVal" class="faderVal"></div>
+        <input id="release" class="short info" type="range" min="0.01" max="1" step="0.01"/>
+        <label id="releaseLabel" for="release" datatype="i18n">
+        </label>
+    </div>
+    <div class="advanced fader fader-ruler fader-v fader-green disabled module">
+        <div id="ratioVal" class="faderVal"></div>
+        <input id="ratio" class="short info" type="range" min="1" max="20" step="0.2"/>
+        <label id="ratioLabel" for="ratio" datatype="i18n">
+        </label>
+    </div>
+    <div class="advanced fader fader-ruler fader-v fader-green disabled module">
+        <div id="kneeVal" class="faderVal"></div>
+        <input id="knee" class="short info" type="range" min="0" max="40" step="0.4"/>
+        <label id="kneeLabel" for="knee" datatype="i18n">
+        </label>
+    </div>
+    <div class="eq fader fader-ruler fader-v fader-orange hidden module">
+        <input class="eqFader info" id="twenty" type="range" min="-20" max="20">
+        <label for="twenty">32
+        </label>
+    </div>
+    <div class="eq fader fader-ruler fader-v fader-orange hidden module">
+        <input class="eqFader info" id="fifty" type="range" min="-20" max="20">
+        <label for="fifty">64
+        </label>
+    </div>
+    <div class="eq fader fader-ruler fader-v fader-orange hidden module">
+        <input class="eqFader info" id="oneHundred" type="range" min="-20" max="20">
+        <label for="oneHundred">125
+        </label>
+    </div>
+    <div class="eq fader fader-ruler fader-v fader-orange hidden module">
+        <input class="eqFader info" id="twoHundred" type="range" min="-20" max="20">
+        <label for="twoHundred">250
+        </label>
+    </div>
+    <div class="eq fader fader-ruler fader-v fader-orange hidden module">
+        <input class="eqFader info" id="fiveHundred" type="range" min="-20" max="20">
+        <label for="fiveHundred">500
+        </label>
+    </div>
+    <div class="eq fader fader-ruler fader-v fader-orange hidden module">
+        <input class="eqFader info" id="oneThousand" type="range" min="-20" max="20">
+        <label for="oneThousand">1k
+        </label>
+    </div>
+    <div class="eq fader fader-ruler fader-v fader-orange hidden module">
+        <input class="eqFader info" id="twoThousand" type="range" min="-20" max="20">
+        <label for="twoThousand">2k
+        </label>
+    </div>
+    <div class="eq fader fader-ruler fader-v fader-orange hidden module">
+        <input class="eqFader info" id="fiveThousand" type="range" min="-20" max="20">
+        <label for="fiveThousand">4k
+        </label>
+    </div>
+    <div class="eq fader fader-ruler fader-v fader-orange hidden module">
+        <input class="eqFader info" id="tenThousand" type="range" min="-20" max="20">
+        <label for="tenThousand">8k
+        </label>
+    </div>
+    <div class="eq fader fader-ruler fader-v fader-orange hidden module">
+        <input class="eqFader info" id="twentyThousand" type="range" min="-20" max="20">
+        <label for="twentyThousand">16k
+        </label>
+    </div>
+</div>
+<div class="options-bar" id="bottom">
+    <button id="bypass" datatype="i18n"></button>
+    <button id="resetLabel" datatype="i18n" class='bypassGrp'></button>
+    <button id="advancedLabel" datatype="i18n"></button>
+    <button id="savePresetLabel" class="flex-right" datatype="i18n" class='bypassGrp'></button>
+    <button id="loadPresetLabel" class="hidden flex-right fg-green" datatype="i18n" class='bypassGrp'></button>
+    <button id="delete" class="typcn-delete hidden" datatype="i18n" class='bypassGrp'></button>
+    <select id="presets">
+        <option id="acoustic" value="acoustic" datatype="i18n"></option>
+        <option id="bassBooster" value="bassBooster" datatype="i18n"></option>
+        <option id="bassReducer" value="bassReducer" datatype="i18n"></option>
+        <option id="classical" value="classical" datatype="i18n"></option>
+        <option id="dance" value="dance" datatype="i18n"></option>
+        <option id="deep" value="deep" datatype="i18n"></option>
+        <option id="electronic" value="electronic" datatype="i18n"></option>
+        <option id="hiphop" value="hiphop" datatype="i18n"></option>
+        <option id="jazz" value="jazz" datatype="i18n"></option>
+        <option id="latin" value="latin" datatype="i18n"></option>
+        <option id="loudness" value="loudness" datatype="i18n"></option>
+        <option id="lounge" value="lounge" datatype="i18n"></option>
+        <option id="piano" value="piano" datatype="i18n"></option>
+        <option id="pop" value="pop" datatype="i18n"></option>
+        <option id="rnb" value="rnb" datatype="i18n"></option>
+        <option id="rock" value="rock" datatype="i18n"></option>
+        <option id="smallSpeakers" value="smallSpeakers" datatype="i18n"></option>
+        <option id="spokenWord" value="spokenWord" datatype="i18n"></option>
+        <option id="trebleBooster" value="trebleBooster" datatype="i18n"></option>
+        <option id="trebleReducer" value="trebleReducer" datatype="i18n"></option>
+        <option id="vocalBooster" value="vocalBooster" datatype="i18n"></option>
+    </select>
+</div>
+</div>
+<div id="info"></div>
+</div>
+</div>
+</div>
+<script src="js/jquery.min.js"></script>
+<script src="js/popup/jquery.knob.min.js"></script>
+<script src="js/popup/ui.js"></script>
+<script src="js/common.js"></script>
+<script src="js/popup/modules.js"></script>
+<script src="js/popup/sliders.js"></script>
+<script src="js/popup/popup.js"></script>
+</body>
+</html>
